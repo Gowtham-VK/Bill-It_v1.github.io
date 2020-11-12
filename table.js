@@ -107,7 +107,7 @@ console.log(User);
         subTot=Gst+Cgst+fin
         var n = subTot.toFixed()
         number(n)
-        document.getElementById("totWords").innerHTML=amt
+        document.getElementById("totWords").innerHTML=amt+"Only"
         document.getElementById("discount").innerHTML=Discount
         document.getElementById("total").innerHTML= n
             var tbodyRef = document.getElementById('tBody');
@@ -140,7 +140,7 @@ console.log(User);
         subTot=Cgst+fin
         var n = subTot.toFixed()
         number(n)
-        document.getElementById("totWords").innerHTML=amt
+        document.getElementById("totWords").innerHTML=amt+"Only"
         document.getElementById("total").innerHTML= subTot
         document.getElementById("discount").innerHTML=Discount
         var tbodyRef = document.getElementById('tBody');
@@ -151,14 +151,9 @@ console.log(User);
         y.outerHTML  = '<th class="text-left">CGST<span class="font-weight-normal">(18%)</span></</th>'
        
         z.innerHTML =`${l}`;
-        // var newRow = tbodyRef.insertRow(3);
-        // var a = newRow.insertCell(0);
-        // var b = newRow.insertCell(1);
-        // a.outerHTML  = '<th class="text-left">CGST</th>'
-       
-        // b.innerHTML = '';
+
         z.setAttribute('class', 'text-right');
-       //  b.setAttribute('class', 'text-right');
+      
     
     }
     console.log("hello");
