@@ -75,9 +75,7 @@ $(document).ready(function()
       var e = document.getElementById("example-date-input").value
        j = document.getElementById("Gst").value
        f = document.getElementById("dis").value
-      var g = -f
-      console.log(a);
-      console.log(j);
+
       
       User = a
        sessionStorage.setItem("User",User);
@@ -93,9 +91,6 @@ $(document).ready(function()
 
       Dates = e
        sessionStorage.setItem("Dates", Dates);
-
-      Discount =f
-      sessionStorage.setItem("Discount",Discount) 
 
       Gst = j
       sessionStorage.setItem("Gst",Gst) 
@@ -156,5 +151,9 @@ var option= opt.value ;
 
 Option = option
        sessionStorage.setItem("Option",Option);
+     disc = document.getElementById("dis").value
+
+       Discount =disc
+       sessionStorage.setItem("Discount",Discount) 
 
 }
