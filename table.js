@@ -135,7 +135,7 @@ console.log(User);
     cgst()
     function cgst(){
         
-        Cgst=9/100*fin
+        Cgst=18/100*fin
         var l=Cgst.toFixed(2)
         subTot=Cgst+fin
         var n = subTot.toFixed()
@@ -148,7 +148,7 @@ console.log(User);
         var newRow = tbodyRef.insertRow(2);
         var y = newRow.insertCell(0);
         var z = newRow.insertCell(1);
-        y.outerHTML  = '<th class="text-left">CGST<span class="font-weight-normal">(9%)</span></</th>'
+        y.outerHTML  = '<th class="text-left">CGST<span class="font-weight-normal">(18%)</span></</th>'
        
         z.innerHTML =`${l}`;
         // var newRow = tbodyRef.insertRow(3);
