@@ -161,5 +161,8 @@ console.log(User);
     else{
         console.log("hey");
     }
+     number(fin)
+    document.getElementById("totWords").innerHTML=amt+"Only"
+    
 }
 
