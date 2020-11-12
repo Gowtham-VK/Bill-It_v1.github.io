@@ -144,6 +144,10 @@ $(document).ready(function()
     
   });
  function sel(){
+     disc = document.getElementById("dis").value
+
+       Discount =disc
+       sessionStorage.setItem("Discount",Discount) 
   var sel = document.getElementById('inputState');
 
 var opt = sel.options[sel.selectedIndex];
@@ -151,9 +155,6 @@ var option= opt.value ;
 
 Option = option
        sessionStorage.setItem("Option",Option);
-     disc = document.getElementById("dis").value
-
-       Discount =disc
-       sessionStorage.setItem("Discount",Discount) 
+     
 
 }
